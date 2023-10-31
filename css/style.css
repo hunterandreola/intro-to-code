@@ -1,5 +1,11 @@
 /* Last rule wins! more specific selector wins! */
 
+:root {
+--dark-blue: #2A315F;
+--light-blue: #6675d3;
+--gold: #FFB859;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +21,7 @@ img {
 }
 
 body {
-    background-color: #2A315F;
+    background-color: var(--dark-blue);
     color: #fff;
     font-family: "open sans";
 
